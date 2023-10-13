@@ -956,7 +956,7 @@ configuration.
     :ref:`string <string-label>`
 
     URL of a proxy server to connect through. Set to an empty string in the repository configuration to disable proxy setting inherited from the main section. The expected format of this option is ``<scheme>://<ip-or-hostname>[:port]``.
-    (For backward compatibility, '_none_' can be used instead of the empty string.)
+    (For backward compatibility empty string can be used instead of _none_.)
 
     Note: The curl environment variables (such as ``http_proxy``) are effective if this option is unset (or '_none_' is set in the repository configuration). See the ``curl`` man page for details.
 
